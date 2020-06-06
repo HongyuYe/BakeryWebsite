@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tropical Treats Bakery</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+	
+
+</head>
+    
+<body>
+	<div class="wrap">
+		<div class="navigation">
+			<a href="index.html">HOME</a>
+			<a href="about.html">About me</a>
+			<a href="specials.html">Specials</a>
+			<a href="contact.html">Contact us</a>
+			<a href="signup.html">sign up</a>
+		</div>
+	</div>
+    <div class="text-center">
+    	<a href="specials.html"><img src="images/specials_button.png" alt="Sign up for weekly specials"></a>
+    	<br>
+	<h1><mark style="color:red">SIGN UP</mark></h1>
+	<br>
+    	<div class="form">
+    		<form action="sign_up.php" onsubmit="validate(event);" method="post">
+   <div class="form-group">
+    <label for="exampleInputtext"><mark style="color:red">Full Name</mark></label>
+    <input type="text" name="name" class="form-control"  placeholder="Full Name" id="name">
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="exampleInputEmail1" ><mark style="color:red">Email address</mark></label>
+    <input type="email" class="form-control"  name="email" id="email"  aria-describedby="emailHelp" placeholder="Enter Email">
+   
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="exampleInputPassword1"><mark style="color:red">Password</mark></label>
+    <input type="password" class="form-control" name="pass" id="pass" placeholder="Password">
+  </div>
+  <br>
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1"><mark style="color:red">Product interests</mark></label>
+    <select class="form-control" name="product" id="product">
+    	<option>choose product</option>
+      <option value="carame_slice">Caramel slice</option>
+      <option value ="cherry_ripe">Cherry Ripe slice</option>
+      <option value="chip_muffins">Chocolate chip muffin</option>
+      <option value="Blueberry_muffin">Blueberry muffin</option>
+      <option value="rasberry_cheese">Raspberry cheesecake</option>
+    </select>
+  </div>
+  <br>
+ <div class="form-group">
+    <label for="exampleInputtext"><mark style="color:red">Date Of Birth</mark></label>
+    <input type="date" name="dob" class="form-control"  placeholder="Full Name" >
+  </div>
+
+  <br>
+  <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+  <br>
+</form>
+
+    	</div>
+    </div>
+	
+    
+   <div class="add" style="width:60%">
+			<div class="address">
+				<h3>Quick links</h3>
+				<li><a href="about.html" class="quick"> About me </a></li>
+				<li><a href="specials.html" class="quick">Our specials </a></li>
+				<li><a href="index.html" class="quick"> Menu </a></li>
+			</div>
+			<div class="address">
+                <h4>Address</h4>
+				<p>123 Prize Lane, Kirwan, QLD</p>
+				<h4>Contact</h4>
+				<p>0455 5555 555</p>
+				<h4>Catering</h4>
+				<p>0433 3333 333</p>
+			</div>
+		</div>
+	<footer>
+			<span>CopyRight &copy; tropical treat | alright reserved</span>
+	</footer>
+
+</body>
+</html>
